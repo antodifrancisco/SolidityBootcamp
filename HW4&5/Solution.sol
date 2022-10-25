@@ -6,7 +6,7 @@ contract VolcanoCoin {
 
     uint256 totalSupply = 10000;
     address owner;
-    mapping (address => uint256) balances;
+    mapping (address => uint256) public balances;
 
     struct Payment {
         address receiver;

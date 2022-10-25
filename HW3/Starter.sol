@@ -5,6 +5,7 @@ pragma solidity 0.8.17;
 contract BootcampContract {
 
     uint256 number;
+    address owner;
 
 
     function store(uint256 num) public {
@@ -14,6 +15,7 @@ contract BootcampContract {
 
     function retrieve() public view returns (uint256){
         return number;
+    }
     }
 
 }
